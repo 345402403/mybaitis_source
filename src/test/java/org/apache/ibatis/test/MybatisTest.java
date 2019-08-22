@@ -31,6 +31,7 @@ public class MybatisTest {
       User user = userMapper.selectBlog(3);
       System.out.println(user.id+"--"+user.name);
       session.commit();
+
     }
   }
 }
